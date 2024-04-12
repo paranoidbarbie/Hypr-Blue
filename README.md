@@ -1,10 +1,14 @@
->Rofi
+## Rofi
+
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/rofi.png)
->Waybar
+## Waybar
+
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/waybar.png)
->Neofetch and Starship Prompt
+## Neofetch and Starship Prompt
+
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/neofetch.png)
-> Vtop
+## Vtop
+
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/vtop.png)
 
 
