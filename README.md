@@ -1,6 +1,10 @@
+>Rofi
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/rofi.png)
+>Waybar
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/waybar.png)
+>Neofetch and Starship Prompt
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/neofetch.png)
+> Vtop
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/vtop.png)
 
 
@@ -12,6 +16,10 @@
 
 **For a seamless performance of the waybar's module please install the following packages, if already installed please skip this step**
 > blueman-manager, pavucontrol, nm-connection-editor, brightnessctl, power-profiles-daemon
+
+**Optional Dependencies
+> ![cava](https://github.com/karlstav/cava)
+> ![vtop](https://github.com/MrRio/vtop)
 
 **For the starship prompt please check out my friend's repo** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv/Cherry-Blossom/)
 ## Quick Shortcuts added in hyprland:
@@ -38,7 +46,7 @@
 
 > Make sure you've installed ```bluez bluez-utils``` If you're on arch please read the guide ![Bluetooth](https://wiki.archlinux.org/title/Bluetooth). For other distribution, please check their docs.
 
-> Sound module not working?>
+> Sound module not working?
 
 > Make sure you're installed ```pulseaudio`` , for arch install ``` pipewire-audio pipewire-pulse ``` and enable ```pipewire-pulse.service```
 
