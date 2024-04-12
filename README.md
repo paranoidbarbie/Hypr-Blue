@@ -48,7 +48,7 @@
 
 > Sound module not working?
 
-> Make sure you're installed ```pulseaudio`` , for arch install ``` pipewire-audio pipewire-pulse ``` and enable ```pipewire-pulse.service```
+> Make sure you're installed ```pulseaudio``` , for arch install ``` pipewire-audio pipewire-pulse ``` and enable ```pipewire-pulse.service```
 
 > Brightness not working??
 
