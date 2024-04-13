@@ -23,7 +23,7 @@
 
 ## Dependencies to install
 
-> **Nerd Fonts --** ![MesloLg, Fira Code Nerd, Jet Brains Mono & Meddon](https://www.nerdfonts.com/font-downloads)
+> **Nerd Fonts --** [MesloLg, Fira Code Nerd, Jet Brains Mono](https://www.nerdfonts.com/font-downloads) and Meddon (Only for Hypr-Dune theme, it's in the extras folder)
 
 > waybar, dunst, hyprlock, hyprpaper, rofi
 
@@ -31,8 +31,8 @@
 > blueman-manager, pavucontrol, nm-connection-editor, brightnessctl, power-profiles-daemon
 
 **Optional Dependencies
-> ![cava](https://github.com/karlstav/cava)
-> ![vtop](https://github.com/MrRio/vtop)
+> [cava](https://github.com/karlstav/cava/)
+> [vtop](https://github.com/MrRio/vtop/)
 
 **For the starship prompt please check out my friend's repo** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv/Cherry-Blossom/)
 ## Quick Shortcuts added in hyprland:
@@ -57,7 +57,7 @@
 
 > Bluetooth is not working in waybar??
 
-> Make sure you've installed ```bluez bluez-utils``` If you're on arch please read the guide ![Bluetooth](https://wiki.archlinux.org/title/Bluetooth). For other distribution, please check their docs.
+> Make sure you've installed ```bluez bluez-utils``` If you're on arch please read the guide [Bluetooth](https://wiki.archlinux.org/title/Bluetooth). For other distribution, please check their docs.
 
 > Sound module not working?
 
