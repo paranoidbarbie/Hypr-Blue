@@ -34,6 +34,26 @@
 > [cava](https://github.com/karlstav/cava/)
 > [vtop](https://github.com/MrRio/vtop/)
 
+## Installation 
+> To install the Hypr-Blue theme
+> enter the Hypr-Blue folder and copy paste the folders in your ~/.config directory
+```
+https://github.com/paranoidbarbie/hyprland-catppuccin-latte.git
+cd hyprland-catppuccin-latte
+cd Hypr-Blue
+cp -rf dunst rofi hypr waybar kitty ~/.config
+```
+> To install the Hypr-Dune theme follow the same steps as the above replacing the folder with Hypr-Dune
+```
+https://github.com/paranoidbarbie/hyprland-catppuccin-latte.git
+cd hyprland-catppuccin-latte
+cp -r extras/Meddon-Regular.ttf ~/.local/share/fonts
+cd Hypr-Dune
+cp -rf rofi hypr waybar kitty ~/.config
+```
+
+To see the changes log out and log back in to Hyprland, enjoy your themes 🤓, such a nerd lol. 
+
 **For the starship prompt please check out my friend's repo** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv/Cherry-Blossom/)
 ## Quick Shortcuts added in hyprland:
 ```
