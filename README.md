@@ -1,20 +1,29 @@
-## Rofi
+# Hypr-blue
 
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/rofi.png)
-## Waybar
 
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/waybar.png)
-## Neofetch and Starship Prompt
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/rofi.png)
 
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/neofetch.png)
-## Vtop
 
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/vtop.png)
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/waybar.png)
+
+
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/neofetch.png)
+
+
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/vtop.png)
+
+# Hypr-Dune
+
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/dune/homescreen.png)
+
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/dune/lockscreen.png)
+
+![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/dune/rofi.png)
 
 
 ## Dependencies to install
 
-> **Nerd Fonts --** ![MesloLg & Fira Code Nerd](https://www.nerdfonts.com/font-downloads)
+> **Nerd Fonts --** ![MesloLg, Fira Code Nerd, Jet Brains Mono & Meddon](https://www.nerdfonts.com/font-downloads)
 
 > waybar, dunst, hyprlock, hyprpaper, rofi
 
