@@ -1,0 +1,181 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    border: 0px;
+    border-radius: 0px;
+}
+
+window#waybar {
+    background-color: rgba(54,69,79,0.0);
+
+}
+#custom-appmenu {
+    background-color: inherit;
+    font-size: 16px;
+    color: #4986d0;
+    border-radius: 15px;
+    font-size:20px;
+    padding: 0px 0px 0px 10px;
+    margin: 6px 15px 6px 13px;
+    opacity:1;
+}
+
+#workspaces {
+    background: #f22952;
+    margin: 8px 15px 8px 0px;
+    padding: 0px 6px;
+    border-radius: 10px;
+    border: 3px solid white;  /*#89dceb;*/
+    font-weight: bold;
+    font-style: normal;
+    opacity: 1;
+    font-size: 15px;
+    color: #212018;
+    min-width: 100px;
+}
+
+#workspaces button {
+    padding: 0px 6px;
+    margin: 3px 3px;
+    color: #eff1f5;
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+    font-size: 15px;
+}
+
+#workspaces button.active {
+    padding: 0px 6px;
+    margin: 3px 3px;
+    color: #212018;
+    transition: all 0.5s ease-in-out;
+    opacity:1.0;
+    font-size: 15px;
+}
+#workspaces button:hover {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity:1;
+    transition: all 0.5s ease-in-out;
+
+}
+tooltip {
+    border-radius: 10px;
+    background-color: #303446;
+    opacity: 0.9;
+    padding:20px;
+    margin:0px;
+    border: 3px solid white;
+}
+
+tooltip label {
+    color: #94e2d5;
+}
+
+
+#tray {
+background: #281d31;
+padding: 2px 10px 0px 10px;
+margin: 8px 15px 8px 0px;
+border-radius: 10px;
+opacity:1;
+border: 3px solid white;
+}
+
+
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+
+#clock {
+    background-color: #3b5075;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 10px 0px 10px;
+    margin: 8px 15px 8px 0px;
+    opacity:1;
+    border:3px solid white;
+}
+
+
+#system  {
+    background-color: #4986d0;
+    font-size: 16px;
+    color: #212018;
+    padding: 2px 10px 0px 10px;
+    margin: 8px 15px 8px 0px;
+    opacity:1;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+#bluetooth {
+    padding: 0px 5px 0px 0px;
+}
+
+#pulseaudio {
+    padding: 0px 5px 0px 5px;
+}
+
+#power {
+    background-color:  #ff2400;
+    font-size: 16px;
+    color: #212018;
+    padding: 2px 15px 0px 10px;
+    margin: 8px 15px 8px 0px;
+    opacity:1;
+    border: 3px solid  white;
+    border-radius: 10px;
+}
+
+#backlight {
+    padding: 0px 5px 0px 5px;
+
+}
+
+#battery {
+    padding: 0px 5px 0px 5px;
+
+}
+
+#power-profiles-daemon {
+    padding: 0px 5px 0px 5px;
+
+}
+
+#network {
+background-color: #859ae5;
+font-size: 16px;
+color: #212018;
+border-radius: 15px;
+padding: 2px 10px 0px 10px;
+margin: 8px 15px 8px 0px;
+opacity:1;
+border: 3px solid white;
+border-radius: 10px;
+}
+
+@keyframes blink {
+    to {
+        background-color: inherit;
+        color: #eff1f5;
+    }
+}
+
+
+
+
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
