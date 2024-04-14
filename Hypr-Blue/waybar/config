@@ -14,7 +14,6 @@
     // Modules Left
     "modules-left": [
         "custom/appmenu",
-        "wlr/taskbar",
         "tray",
         "hyprland/window",
         "custom/empty"
