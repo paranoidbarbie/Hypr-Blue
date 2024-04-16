@@ -12,27 +12,17 @@
 
 ![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/vtop.png)
 
-# Hypr-Dune
-
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/dune/homescreen.png)
-
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/dune/lockscreen.png)
-
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/dune/rofi.png)
 
 
 ## Dependencies to install
 
-> **Nerd Fonts --** [MesloLg, Fira Code Nerd, Jet Brains Mono](https://www.nerdfonts.com/font-downloads) and Meddon (Only for Hypr-Dune theme, it's in the extras folder)
+> **Nerd Fonts --** [MesloLg, Fira Code Nerd](https://www.nerdfonts.com/font-downloads)
 
 > waybar, dunst, hyprlock, hyprpaper, rofi
 
 **For a seamless performance of the waybar's module please install the following packages, if already installed please skip this step**
 > blueman-manager, pavucontrol, nm-connection-editor, brightnessctl, power-profiles-daemon
 
-**Optional Dependencies
-> [cava](https://github.com/karlstav/cava/)
-> [vtop](https://github.com/MrRio/vtop/)
 
 ## Installation 
 > To install the Hypr-Blue theme
@@ -43,16 +33,8 @@ cd hyprland-catppuccin-latte
 cd Hypr-Blue
 cp -rf dunst rofi hypr waybar kitty ~/.config
 ```
-> To install the Hypr-Dune theme follow the same steps as the above replacing the folder with Hypr-Dune
-```
-https://github.com/paranoidbarbie/hyprland-catppuccin-latte.git
-cd hyprland-catppuccin-latte
-cp -r extras/Meddon-Regular.ttf ~/.local/share/fonts
-cd Hypr-Dune
-cp -rf rofi hypr waybar kitty ~/.config
-```
 
-To see the changes log out and log back in to Hyprland, enjoy your themes 🤓, such a nerd lol. 
+To see the changes log out and log back in to Hyprland, enjoy your new, such a nerd lol. 
 
 **For the starship prompt please check out my friend's repo** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv/Cherry-Blossom/)
 ## Quick Shortcuts added in hyprland:
@@ -66,24 +48,5 @@ To see the changes log out and log back in to Hyprland, enjoy your themes 🤓, 
 7. PRINT = takes full screenshot
 8. mainMod + SHIFT + PRINT = regional screenshot
 ```
-## Quick Waybar shortcuts:
-```
-- Scroll up/down on brightness icon to increase/decrease brightness
-- Middle click on bluetooth icons open blueman-manager > Left Click to enable and Right Click to Disable > Mousescroll toggles between on and off
-- Mousescroll on volumeicon increases/decreases volume. Right click will open pavucontrol
-```
 
-# Troubleshootings
-
-> Bluetooth is not working in waybar??
-
-> Make sure you've installed ```bluez bluez-utils``` If you're on arch please read the guide [Bluetooth](https://wiki.archlinux.org/title/Bluetooth). For other distribution, please check their docs.
-
-> Sound module not working?
-
-> Make sure you're installed ```pulseaudio``` , for arch install ``` pipewire-audio pipewire-pulse ``` and enable ```pipewire-pulse.service```
-
-> Brightness not working??
-
-> Please installe brightnessctl.
 
