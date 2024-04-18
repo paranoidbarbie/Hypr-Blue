@@ -1,36 +1,35 @@
-# Hypr-blue
+# Hypr-Pink
 
 
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/rofi.png)
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/hyprpink.png)
 
-
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/waybar.png)
-
-
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/neofetch.png)
-
-
-![screenshot](https://github.com/paranoidbarbie/hyprland-catppuccin-latte/blob/main/assets/blue/vtop.png)
-
-
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/lockscreen.png)
 
 ## Dependencies to install
 
 > waybar, hyprlock, hyprpaper, rofi, nerd-fonts
 
 if nerd-fonts is not available in your package manager please download it and reload it.
+also install [DotGothic16](https://fonts.google.com/specimen/DotGothic16?query=dot) font. 
 
 **Optional items for the waybar modules**
-> blueman-manager, pavucontrol, nm-connection-editor, brightnessctl, power-profiles-daemon
+> blueman-manager, nm-connection-editor, brightnessctl
 
 
 ## Installation 
-> To install the Hypr-Blue theme
-> enter the Hypr-Blue folder and copy paste the folders in your ~/.config directory
+> To install the Hypr-Pink theme
+
 ```
-https://github.com/paranoidbarbie/hyprland-catppuccin-latte.git
-cd hyprland-catppuccin-latte
+https://github.com/paranoidbarbie/Hypr-Pink.git
+cd Hypr-Pink
 cp -r Hypr-Pink/* ~/.config
+
+```
+Install the starship theme to complete the theme 
+
+```
+cd cd hyprland-catppuccin-latte
+cp -r starship/pink.toml ~/.config/starship.toml 
 
 ```
 
