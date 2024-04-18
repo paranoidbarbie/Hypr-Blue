@@ -5,6 +5,8 @@
 
 ![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/lockscreen.png)
 
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/rofi.png)
+
 ## Dependencies to install
 
 > waybar, hyprlock, hyprpaper, rofi, nerd-fonts
