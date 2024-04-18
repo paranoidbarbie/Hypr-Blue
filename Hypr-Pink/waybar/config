@@ -1,0 +1,37 @@
+{
+    // General Settings
+    "layer": "top",
+    "margin-top": 5,
+    "margin-bottom": 0,
+    "layer": "top",
+    "margin-left": 20,
+    "margin-right": 20,
+    "spacing": 0,
+    "mode": "dock",
+    "reload_style_on_change": true,
+
+    // Load Modules
+    "include": ["~/.config/waybar/modules.json"],
+
+    // Modules Left
+    "modules-left": [
+        "custom/appmenu",
+        "hyprland/workspaces",
+	"tray"
+    ],
+
+    // Modules Center
+    "modules-center": [
+	"custom/quote",
+	"mpris"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "group/system",
+        "group/power",
+        "clock",
+	"network"
+
+    ]
+}
