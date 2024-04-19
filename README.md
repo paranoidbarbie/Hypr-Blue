@@ -1,17 +1,17 @@
 # Hypr-Blue
 
 
-![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/hyprblue.png)
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/blue/hyprblue.png)
 
-![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/lockscreen.png)
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/blue/lockscreen.png)
 
-![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/rofi.png)
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/blue/rofi.png)
 
 ## Dependencies to install
 
 > waybar, hyprlock, hyprpaper, rofi, nerd-fonts
 
-if nerd-fonts is not available in your package manager please download it and reload it.
+if nerd-fonts is not available in your package manager please install it and reload it.
 
 **Optional items for the waybar modules**
 > blueman-manager, nm-connection-editor, brightnessctl
@@ -22,8 +22,8 @@ if nerd-fonts is not available in your package manager please download it and re
 
 ```
 https://github.com/paranoidbarbie/Hypr-Blue.git
-cd Hypr-Pink
-cp -r Hypr-Pink/* ~/.config
+cd Hypr-Blue
+cp -r Hypr-Blue/* ~/.config
 
 ```
 Install the starship theme to complete the theme 
