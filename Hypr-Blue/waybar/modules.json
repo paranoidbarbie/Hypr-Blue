@@ -2,21 +2,12 @@
     // Workspaces
     "hyprland/workspaces" : {
         "on-click": "activate",
-        "active-only": false,
-        "all-outputs": true,
+        "active-only": true,
+        "all-outputs": false,
         "format": "{icon}",
         "format-icons": {
-		"1": "🖤",
-		"2": "💙",
-		"3": "💚",
-		"4": "💛",
-		"5": "💜",
-		"6": "🧡",
-		"7": "🤍",
-		"8": "🤎",
-		"9": "💕",
-		"10": "💝",
-		"active":  "💖",
+		"active": "",
+		"default": ""
         },
         "persistent-workspaces": {
             "*": 10
@@ -53,7 +44,7 @@
     "group/power": {
         "orientation": "horizontal",
         "modules": [
-            "backlight",
+            "backlight/slider",
             "battery",
         ],
     },
@@ -67,7 +58,8 @@
 	"max-length": 50,
 	//"ignored-players": ["firefox"]
 },
-"custom/quote": {
+    // custom 
+    "custom/quote": {
 	"format": "ハイプラランド"
 },
 
@@ -154,16 +146,12 @@
 
     //brightness
 
-    "backlight": {
-		"tooltip": false,
-		"format": "{icon} {percent}%",
-		"interval":1,
-        "on-scroll-up": "brightnessctl set 10%+",
-		"on-scroll-down": "brightnessctl set 10%-",
-        "format-icons": ["", ""],
-
-
-	},
+    "backlight/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal",
+    "device": "intel_backlight"
+},
 	// System tray
     "tray": {
         "icon-size": 20,

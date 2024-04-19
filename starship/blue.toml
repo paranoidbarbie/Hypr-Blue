@@ -1,16 +1,16 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[░▒▓](#DFCCFB)\
+[░▒▓](#3e3e3e)\
 $os\
-[](bg:#BEADFA fg:#DFCCFB)\
+[](bg:#212b31 fg:#3e3e3e)\
 $username\
-[](bg:#A5DD9B fg:#BEADFA)\
+[](bg:#4b5f6d fg:#212b31)\
 $directory\
-[](fg:#A5DD9B bg:#D2E0FB)\
+[](fg:#4b5f6d bg:#4a5760)\
 $git_branch\
 $git_status\
-[](fg:#D2E0FB bg:#FFC0D9)\
+[](fg:#4a5760 bg:#2b373f)\
 $python\
 $nodejs\
 $swift\
@@ -19,15 +19,15 @@ $golang\
 $php\
 $ruby\
 $julia\
-[](fg:#FFC0D9 bg:#FFE9AE)\
+[](fg:#2b373f bg:#36454f)\
 $time\
 $battery\
-[](fg:#FFE9AE)\
+[](fg:#36454f)\
 $line_break$character"""
 
 [os]
 disabled = false
-style = "bg:#DFCCFB fg:#256c8c"
+style = "bg:#3e3e3e fg:#00CCFF"
 
 [os.symbols]
 Alpaquita = " "
@@ -76,12 +76,12 @@ Windows = "󰍲 "
 
 [username]
 show_always = true
-style_user = "fg:#256c8c bg:#BEADFA"
-style_root = "fg:#256c8c bg:#BEADFA"
+style_user = "fg:#00CCFF bg:#212b31"
+style_root = "fg:#00CCFF bg:#212b31"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:#256c8c bg:#A5DD9B"
+style = "fg:#00CCFF bg:#4b5f6d"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -95,62 +95,62 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:#E0AED0"
-format = '[[ $symbol $branch ](fg:#256c8c bg:#D2E0FB)]($style)'
+format = '[[ $symbol $branch ](fg:#00CCFF bg:#4a5760)]($style)'
 
 [git_status]
 style = "bg:#E0AED0"
-format = '[[($all_status$ahead_behind )](fg:#256c8c bg:#D2E0FB)]($style)'
+format = '[[($all_status$ahead_behind )](fg:#00CCFF bg:#4a5760)]($style)'
 
 [python]
 symbol = " "
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#FFC0D9)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [nodejs]
 symbol = ""
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [php]
 symbol = ""
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [ruby]
 symbol = " "
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [julia]
 symbol = ""
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [java]
 symbol = " "
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [swift]
 symbol = " "
 style = "bg:#AC87C5"
-format = '[[ $symbol ($version) ](fg:#256c8c bg:#AC87C5)]($style)'
+format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#1d2230"
-format = '[[✧˚·. $time ✧˚·.](fg:#256c8c bg:#FFE9AE)]($style)'
+format = '[[✧˚·. $time ✧˚·.](fg:#00CCFF bg:#36454f)]($style)'
 
 [battery]
 disabled = false
@@ -161,22 +161,22 @@ empty_symbol = '󰂎'
 format = '[$symbol$percentage]($style)'
 
 [[battery.display]]
-threshold = 10
-style = 'fg:#ff0038 bg:#FFE9AE'
+threshold = 15
+style = 'fg:#FF2400 bg:#FF3600'
 
 [[battery.display]]
-threshold = 30
-style = "fg:#FFB000 bg:#FFE9AE"
+threshold = 50
+style = "fg:#FFDF00 bg:#FFD300"
 
 [[battery.display]]
 threshold = 100
-style = "fg:#9ADE7B bg:#FFE9AE"
+style = "fg:#0BFF00 bg:#36454f"
 
 [line_break]
 disabled = false
 
 [character]
 disabled = false
-success_symbol = "[❯](#6ccf95)"
-error_symbol = '[❯](#fe6156)'
-vimcmd_symbol = '[](#6ccf95)'
+success_symbol = "[❯](#0BFF00)"
+error_symbol = '[❯](#FF3600)'
+vimcmd_symbol = '[](#00CCFF)'

@@ -1,7 +1,7 @@
-# Hypr-Pink
+# Hypr-Blue
 
 
-![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/hyprpink.png)
+![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/hyprblue.png)
 
 ![screenshot](https://github.com/paranoidbarbie/Hypr-Pink/blob/main/assets/pink/lockscreen.png)
 
@@ -12,7 +12,6 @@
 > waybar, hyprlock, hyprpaper, rofi, nerd-fonts
 
 if nerd-fonts is not available in your package manager please download it and reload it.
-also install [DotGothic16](https://fonts.google.com/specimen/DotGothic16?query=dot) font. 
 
 **Optional items for the waybar modules**
 > blueman-manager, nm-connection-editor, brightnessctl
@@ -22,7 +21,7 @@ also install [DotGothic16](https://fonts.google.com/specimen/DotGothic16?query=d
 > To install the Hypr-Pink theme
 
 ```
-https://github.com/paranoidbarbie/Hypr-Pink.git
+https://github.com/paranoidbarbie/Hypr-Blue.git
 cd Hypr-Pink
 cp -r Hypr-Pink/* ~/.config
 
@@ -30,13 +29,13 @@ cp -r Hypr-Pink/* ~/.config
 Install the starship theme to complete the theme 
 
 ```
-cd cd hyprland-catppuccin-latte
-cp -r starship/pink.toml ~/.config/starship.toml 
+cd cd Hypr-BLue
+cp -r starship/blue.toml ~/.config/starship.toml
 
 ```
 
 
-**Thanks to my friend for choosing the colors** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv/Cherry-Blossom/)
+**Thanks to my friend for choosing the colors** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv)
 ## Quick Shortcuts added in hyprland:
 ```
 1. mainMod + Tab = Switch windows
