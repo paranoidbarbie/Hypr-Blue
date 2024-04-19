@@ -29,7 +29,7 @@ cp -r Hypr-Blue/* ~/.config
 Install the starship theme to complete the theme 
 
 ```
-cd cd Hypr-BLue
+cd Hypr-BLue
 cp -r starship/blue.toml ~/.config/starship.toml
 
 ```
