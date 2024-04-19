@@ -149,7 +149,7 @@ format = '[[ $symbol ($version) ](fg:#00CCFF bg:#2b373f)]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#1d2230"
+style = "bg:#36454f"
 format = '[[✧˚·. $time ✧˚·.](fg:#00CCFF bg:#36454f)]($style)'
 
 [battery]
@@ -162,11 +162,11 @@ format = '[$symbol$percentage]($style)'
 
 [[battery.display]]
 threshold = 15
-style = 'fg:#FF2400 bg:#FF3600'
+style = 'fg:#FF3600 bg:#36454f'
 
 [[battery.display]]
 threshold = 50
-style = "fg:#FFDF00 bg:#FFD300"
+style = "fg:#FF9400 bg:#36454f"
 
 [[battery.display]]
 threshold = 100
