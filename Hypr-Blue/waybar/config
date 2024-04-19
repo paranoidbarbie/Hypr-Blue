@@ -1,11 +1,11 @@
 {
     // General Settings
     "layer": "top",
-    "margin-top": 5,
+    "margin-top": 0,
     "margin-bottom": 0,
     "layer": "top",
-    "margin-left": 20,
-    "margin-right": 20,
+    "margin-left": 0,
+    "margin-right": 0,
     "spacing": 0,
     "mode": "dock",
     "reload_style_on_change": true,

@@ -12,9 +12,9 @@ configuration {
 * {
     font:   "JetBrainMono Medium 12";
 
-    bg0:     #fccbdbFF;
-    bg1:     #b6d0efFF;
-    fg0:     #256c8c;
+    bg0:     #081C34FF;
+    bg1:     #030A11FF;
+    fg0:     #00CCFF;
 
     background-color:   transparent;
     text-color:         @fg0;
