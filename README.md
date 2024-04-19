@@ -34,6 +34,8 @@ cp -r starship/blue.toml ~/.config/starship.toml
 
 ```
 
+> For the lockscreen avatar , please save an image of 1:1 aspect ratio in the ~/.config/hypr/images folder. Please use .png , not sure if jpg is supported yet since hyprland supports only png in the lockscreen as of now. 
+
 
 **Thanks to my friend for choosing the colors** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv)
 ## Quick Shortcuts added in hyprland:
