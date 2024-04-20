@@ -18,10 +18,10 @@ if nerd-fonts is not available in your package manager please install it and rel
 
 
 ## Installation 
-> To install the Hypr-Pink theme
+> To install the Hypr-Blue theme
 
 ```
-https://github.com/paranoidbarbie/Hypr-Blue.git
+git clone https://github.com/paranoidbarbie/Hypr-Blue.git
 cd Hypr-Blue
 cp -r Hypr-Blue/* ~/.config
 
@@ -29,7 +29,7 @@ cp -r Hypr-Blue/* ~/.config
 Install the starship theme to complete the theme 
 
 ```
-cd Hypr-BLue
+cd Hypr-Blue
 cp -r starship/blue.toml ~/.config/starship.toml
 
 ```
@@ -38,6 +38,7 @@ cp -r starship/blue.toml ~/.config/starship.toml
 
 
 **Thanks to my friend for choosing the colors** [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/jemhv/)](https://github.com/jemhv)
+
 ## Quick Shortcuts added in hyprland:
 ```
 1. mainMod + Tab = Switch windows
